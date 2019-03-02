@@ -19,8 +19,8 @@ import java.util.List;
 @DynamicInsert
 @DynamicUpdate
 @Entity
-@EqualsAndHashCode(callSuper = true)
 @Table(name = "NOTICE")
+@EqualsAndHashCode(callSuper = true)
 @Comment(value = "")
 @Alias("notice")
 public class Notice extends BaseJpaModel<Integer> {
