@@ -25,8 +25,8 @@ import java.time.LocalTime;
 @DynamicInsert
 @DynamicUpdate
 @Entity
-@Table(name = "SCHEDULER")
 @EqualsAndHashCode(callSuper = true)
+@Table(name = "SCHEDULER")
 @Comment(value = "")
 @Alias("scheduler")
 public class Scheduler extends BaseJpaModel<Integer> {

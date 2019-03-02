@@ -20,8 +20,8 @@ import java.util.List;
 @DynamicInsert
 @DynamicUpdate
 @Entity
-@Table(name = "SCHEDULER_REPEAT")
 @EqualsAndHashCode(callSuper = true)
+@Table(name = "SCHEDULER_REPEAT")
 @Comment(value = "")
 @Alias("schedulerRepeat")
 public class SchedulerRepeat extends BaseJpaModel<Integer> {
